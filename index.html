@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aplicação Web - Menu Inicial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container menu-inicial">
+    <h1><i class="fas fa-folder-open"></i> Selecione um Exemplo</h1>
+
+    <button onclick="abrirCalcMedia()"><i class="fas fa-calculator"></i> Calculadora de Média</button>
+    <button onclick="abrirFormulario()"><i class="fas fa-file-alt"></i> Formulário com TXT</button>
+    <button onclick="abrirListaFrutas()"><i class="fas fa-apple-alt"></i> Manipulação de Frutas</button>
+
+    <div id="conteudo" style="margin-top: 30px; text-align: left;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
